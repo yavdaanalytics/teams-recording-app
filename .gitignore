@@ -1,4 +1,16 @@
-node_modules
+# Ignore DB export/import artifacts and local credentials
+tools/
+bcp_export/
+scripts/bcp-transfer.ps1
+scripts/bacpac-transfer.ps1
+azure-credentials.json
+
+# Node modules
+**/node_modules/
+
+# Local env files
+.env
+.env.*node_modules
 dist
 build
 .env
