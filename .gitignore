@@ -10,7 +10,8 @@ azure-credentials.json
 
 # Local env files
 .env
-.env.*node_modules
+.env.*
+node_modules
 dist
 build
 .env
