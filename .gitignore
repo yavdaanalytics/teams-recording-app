@@ -11,6 +11,7 @@ azure-credentials.json
 # Local env files
 .env
 .env.*
+azure/functions/**/local.settings.json
 node_modules
 dist
 build
